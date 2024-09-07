@@ -43,3 +43,37 @@ console.log(getName) // prints the whole getName function
 functionName() //Javascript 1
 console.log(functionName) // prints the whole getName function
 ```
+
+## Functions
+
+```javascript
+console.log(x) //undefined
+var x = 8
+a() // 10
+b() // 9
+console.log(x) //8
+function a(){
+    var x = 10
+    console.log(x)
+}
+function b(){
+    var x = 9
+    console.log(x)
+}
+```
+
+### At Global space `this === window` //true
+
+#### Global space is nothing but anything which is not within the functions
+
+```javascript
+var a = 10
+function b(){
+    var b = 9
+}
+console.log(a)//10
+console.log(window.a)//10
+console.log(this.a)//10
+console.log(b)// error - b is not defined
+
+```
