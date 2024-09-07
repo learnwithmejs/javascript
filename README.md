@@ -18,7 +18,7 @@
 
 ### D. What happens when you run the Javascript code?
 
-`Javascript is a synchronous single-threaded language`
+## `Javascript is a synchronous single-threaded language`
 
 ## Hoisting in Javascript(Variables and Functions)
 
