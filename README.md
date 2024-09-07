@@ -69,11 +69,11 @@ function b(){
 ```javascript
 var a = 10
 function b(){
-    var b = 9
+    var x = 9
 }
 console.log(a)//10
 console.log(window.a)//10
 console.log(this.a)//10
-console.log(b)// error - b is not defined
+console.log(x)// error - b is not defined
 
 ```
