@@ -1,5 +1,7 @@
 # JAVASCRIPT
 
+// Date : 07th Sep 2024
+
 ## Everything in JavaScript happens inside an `Execution Context`
 
 ### Execution Context has two components
@@ -76,4 +78,19 @@ console.log(window.a)//10
 console.log(this.a)//10
 console.log(x)// error - b is not defined
 
+```
+
+// Date : 08th Sep 2024
+
+### What is the difference between 'undefined' and 'not defined'?
+
+* undefined is like a placeholder till a variable is not assinged
+* undefined != not defined
+
+```javascript
+var a
+console.log(a)//undefined
+a = 10
+console.log(a)//10
+console.log(x) // not defined
 ```
