@@ -1,6 +1,7 @@
 # JAVASCRIPT
 
 // Date : 07th Sep 2024
+Date.format(new Date("07 Sep 2024"), "%B %d, %Y")
 
 ## Everything in JavaScript happens inside an `Execution Context`
 
@@ -81,6 +82,7 @@ console.log(x)// error - b is not defined
 ```
 
 // Date : 08th Sep 2024
+Date.format(new Date("08 Sep 2024"), "%B %d, %Y")
 
 ### What is the difference between 'undefined' and 'not defined'?
 
