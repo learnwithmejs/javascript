@@ -138,3 +138,19 @@ console.log(y) //y is not defined
 6. There are three types of error: [1] referenceError {given where variable does not have memory allocation} [2] typeError {given when we change type that is not supposed to be changed} [3] syntaxError {when proper syntax(way of writing a statement) is not used}.
 7. Use const wherever possible followed by let, Use var as little as possible(only if you have to). It helps avoid error.
 8. Initialising variables at the top is good idea, helps shrinks TDZ to zero.
+
+```javascript
+console.log(a)//cannot access 'a' before initialization
+console.log(b)//undefined
+let a = 10
+var b = 100
+
+let x // you can assing even later
+x = 99 
+
+const w = 999;
+console.log(w) // 999
+
+const z //'const' declarations must be initialized
+z = 888
+```
